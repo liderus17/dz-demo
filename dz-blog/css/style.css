@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    background-color: #374151;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.logo-h2{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.logo span{
+    width: 35px;
+    height: 35px;
+    background-color: #4B5563;
+}
+
+.navigation{
+    margin-top: 3px;
+    margin-right: 550px;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+.navigation li{
+    list-style: none;
+}
+.navigation a{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search-nput{
+    width: 224px;
+    height: 40px;
+    border-radius:100px;   
+    background-color: #1F2937;
+    padding: 25px;
+    border: none;
+    font-size: 16px;
+}
+
+
+.h2-center{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 80px;
+    color: #ffffff;
+}
+
+.h3-center{
+    margin: 0 auto;
+    max-width: 525px;
+    margin-top: 14px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.img-avatar{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.avatarka{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.img-text h4{
+    color: #ffffff;
+    margin-top: 5px;
+}
+.img-text h5{
+    color: #ffffff;
+    margin-top: -15px;
+}
+
+.center-img{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.img_center{
+    margin-top: 28px;
+    border-radius: 5px;
+    width: 896px;
+    height: 594px;
+}
